@@ -1,0 +1,71 @@
+.testimonials{
+padding:3rem 1.5rem;
+}
+.testi-text{
+text-align:center;
+}
+.testi-text h2{
+color:hsl(228, 39%, 23%);
+font-size:2.4rem;
+}
+.testi-row{
+margin-top:3rem;
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-gap:2rem;
+}
+.card-test{
+background-color:hsl(240, 9%, 98%);
+padding:3.5rem 1.5rem;
+text-align:center;
+}
+.card-test{
+position:relative;
+}
+.card-test h2{
+color:hsl(228, 39%, 23%);
+padding-top:1.25rem;
+}
+.card-test p{
+padding-top:2rem;
+color:hsl(227, 12%, 61%);
+font-size:0.85rem;
+line-height:1.5;
+}
+.card-img{
+height:30px;
+width:15%;
+position:absolute;
+left:50%;
+transform:translate(-50%,-50%);
+margin-top:-4rem;
+}
+.card-img img{
+width:100%;
+height:auto;
+}
+.btn{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.card-btn{
+text-decoration:none;
+color:hsl(0, 0%, 98%);
+background-color:hsl(12, 88%, 59%);
+font-size:0.9rem;
+padding:0.75rem 2rem;
+border-radius:20px;
+text-align:center;
+font-weight:500;
+box-shadow:9px 1px 17px -6px #000000;
+margin:0 auto;
+}
+@media(max-width:600px){
+.testi-row{
+margin-top:3rem;
+display:grid;
+grid-template-columns:1fr;
+grid-gap:2rem;
+}
+}

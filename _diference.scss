@@ -1,0 +1,66 @@
+.diference{
+padding:3rem 1.5rem;
+}
+.dif-row{
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-gap:22rem;
+}
+.dif-text h2{
+color:hsl(228, 39%, 23%);
+font-family: 'Be Vietnam', sans-serif;
+font-size:2.2rem;
+font-weight:800;
+padding-bottom:1.5rem;
+}
+.dif-text p{
+color:hsl(227, 12%, 61%);
+}
+.dif-row h4{
+color:hsl(228, 39%, 23%);
+font-size:1.25rem;
+font-weight:600;
+padding-bottom:0.75rem;
+}
+.dif-card{
+padding-bottom:2.5rem;
+}
+.dif-card p{
+color:hsl(227, 12%, 61%);
+padding-bottom:2rem;
+}
+.dif-flex{
+display:flex;
+align-items:center;
+}
+.dif-flex h4{
+padding-right:-2rem;
+}
+.dif-flex a{
+background-color:hsl(12, 88%, 59%);
+padding:.15rem 1.05rem;
+text-decoration:none;
+color:#fff;
+border-radius:50px;
+margin-left:-8rem;
+}
+@media(max-width:600px){
+.dif-row{
+display:grid;
+grid-template-columns:1fr;
+grid-gap:5rem;
+}
+.dif-text{
+text-align:center;
+}
+.difference{
+padding:2rem .5rem;
+}
+.dif-flex a{
+margin-left:0rem;
+}
+.dif-flex h4{
+padding-left:1rem;
+font-size:1.2rem;
+}
+}
